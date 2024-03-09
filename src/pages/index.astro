@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Terminal from '../components/Terminal.jsx';
+---
+<Layout>
+  <main>
+    <h1>Intergalactic Information Network</h1>
+    <Terminal client:only="react" />
+  </main>
+</Layout>

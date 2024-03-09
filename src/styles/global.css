@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+    background-color: black;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    color: #00ff00;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  main {
+    background-color: #202020;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00ff00;
+    padding: 20px;
+  }
+  
+  /* Terminal Styles */
+  .terminal {
+    background-color: #000000;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .output {
+    height: 300px;
+    overflow-y: auto;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input span {
+    margin-right: 5px;
+  }
+  
+  .input input {
+    background-color: #000000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 5px;
+    font-family: 'Courier New', monospace;
+    flex-grow: 1;
+  }
